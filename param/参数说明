@@ -1,0 +1,9 @@
+differentdata 用PRelu 没加验证集 在老师给的生成样本上训练 test4.01
+initialparam 初始网络初始损失 跑了好多轮 test1.03
+minlossparam 初始网络的最小损失结果  test2.03
+PRelu  网络添加了Prelu激活函数 使用loss控制停止 3.03
+val_param 网络添加了Prelu激活函数 使用验证集offset R2  控制停止5.02
+temp 5.03
+
+其中PRelu效果最好
+val_param其次
